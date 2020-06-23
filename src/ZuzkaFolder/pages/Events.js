@@ -11,7 +11,7 @@ const StyledContainer = styled.div`
   text-align: center;
 `;
 
-const ZuzkaApp = () => {
+const Events = () => {
   const [showText, setShowText] = useState(true);
 
   const handleToggle = () => {
@@ -33,4 +33,4 @@ const ZuzkaApp = () => {
   );
 };
 
-export default ZuzkaApp;
+export default Events;

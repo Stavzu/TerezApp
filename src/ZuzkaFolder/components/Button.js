@@ -10,6 +10,11 @@ const StyledButton = styled.button`
   padding: 1rem 2rem;
   outline: none;
   cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
+  &:hover {
+    opacity: 1;
+  }
 `;
 
 const Button = ({ children, onClick, color, colorBackground }) => {

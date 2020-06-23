@@ -16,6 +16,11 @@ const StyledText = styled.div`
       margin: 0.5rem;
       display: flex;
       border-radius: 5px;
+      transition: 0.3s;
+      font-size: 1rem;
+      &:hover {
+        font-size: 1.1rem;
+      }
       span {
         &:last-child {
           font-size: 14px;
@@ -40,7 +45,7 @@ const Text = ({ title }) => {
         {myEvents &&
           myEvents.map((event) => {
             return (
-              <li key={event.id}>
+              <li>
                 <span> {event.name}</span>
                 <span>City: {event.place}</span>
               </li>

@@ -1,5 +1,5 @@
 import React from "react";
-import ZuzkaApp from "./ZuzkaFolder/pages/ZuzkaApp";
+import AppContainer from "./ZuzkaFolder/pages/AppContainer";
 
 //import TerezApp from "./TerezFolder/pages/TerezApp";
 
@@ -12,8 +12,12 @@ import ZuzkaApp from "./ZuzkaFolder/pages/ZuzkaApp";
 // 6. try to use props for insert text to component text
 // 7. Check what is Children in component and how it works
 
+// 1. create file with routes - dont forget install react-router-dom
+// 2. look where is header and footer which ino changes when you route
+// 3. creader header and footer ... all item should have separete files ...
+
 const App = () => {
-  return <ZuzkaApp />;
+  return <AppContainer />;
 };
 
 export default App;
